@@ -1492,7 +1492,7 @@
         "depends_on": null,
         "description": null,
         "docstatus": 0,
-        "doctype"bench export-fixtures: "Custom Field",
+        "doctype": "Custom Field",
         "dt": "Employee",
         "fetch_from": null,
         "fetch_if_empty": 0,
