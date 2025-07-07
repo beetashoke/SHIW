@@ -1,0 +1,48 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-07-07 12:51:38.168002",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "reason_for_heat_loss",
+  "weight_in_kg",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "reason_for_heat_loss",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Reason For Heat Loss",
+   "options": "\nOver Achieved\nManpower Issue\nPower Problem\nLadle Not Available\nNo Mould in HPML\nStopper Jam\nChemistry Out\nGrade Change\nRusted Scrap Boiling Heat Slow Running\nSintering Heat\nLadle Breakdown\nCold Furnace\nSampling\nPatching Heat\nLack Of Raw Material\nHigh Water Temp\nFurnace Repairing\nBariman issue\nPower cut\nNo mould in JS\nCrane man unavailable\nScrap problem\nPattern change\nHeat change\nNozzle Leakage\nDue to both 1 ton furnaces running at the same time\nFurnace starts late\nFurnace hold\nNozzle Break\nSS Heat take time\nFurnace Breakdown\nDI Heat Change\nChemistry High\nMixed scrap\nLadle heating issue\nFurnace stop\nGrade change"
+  },
+  {
+   "fieldname": "weight_in_kg",
+   "fieldtype": "Float",
+   "label": "Weight (In Kg)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "options": "Reason For Heat Loss Table"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-07-07 12:55:21.015958",
+ "modified_by": "Administrator",
+ "module": "SHIW",
+ "name": "Reason For Heat Loss Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
