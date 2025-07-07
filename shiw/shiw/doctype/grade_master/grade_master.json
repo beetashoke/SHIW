@@ -1,0 +1,174 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-07-07 11:09:52.040148",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "grade_type",
+  "catergory",
+  "subgrade",
+  "section_break_fwyl",
+  "min__c",
+  "min__si",
+  "min__mn",
+  "max__p",
+  "min__mo",
+  "min__ni",
+  "min__cu",
+  "min__v",
+  "min__nb",
+  "column_break_idux",
+  "max__c",
+  "max__si",
+  "max__mn",
+  "max__s",
+  "max__cr",
+  "max__mo",
+  "max__cu",
+  "max__v",
+  "max__nb"
+ ],
+ "fields": [
+  {
+   "fieldname": "grade_type",
+   "fieldtype": "Data",
+   "label": "Grade Type"
+  },
+  {
+   "fieldname": "catergory",
+   "fieldtype": "Data",
+   "label": "Catergory"
+  },
+  {
+   "fieldname": "subgrade",
+   "fieldtype": "Data",
+   "label": "Subgrade"
+  },
+  {
+   "fieldname": "section_break_fwyl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "min__c",
+   "fieldtype": "Percent",
+   "label": "Min % C"
+  },
+  {
+   "fieldname": "min__si",
+   "fieldtype": "Percent",
+   "label": "Min % SI"
+  },
+  {
+   "fieldname": "min__mn",
+   "fieldtype": "Percent",
+   "label": "Min % MN"
+  },
+  {
+   "fieldname": "max__p",
+   "fieldtype": "Percent",
+   "label": "Max % P"
+  },
+  {
+   "fieldname": "min__mo",
+   "fieldtype": "Percent",
+   "label": "Min % MO"
+  },
+  {
+   "fieldname": "min__ni",
+   "fieldtype": "Percent",
+   "label": "Min % NI"
+  },
+  {
+   "fieldname": "min__cu",
+   "fieldtype": "Percent",
+   "label": "Min % CU"
+  },
+  {
+   "fieldname": "min__v",
+   "fieldtype": "Percent",
+   "label": "Min % V"
+  },
+  {
+   "fieldname": "min__nb",
+   "fieldtype": "Percent",
+   "label": "MIn % Nb"
+  },
+  {
+   "fieldname": "column_break_idux",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "max__c",
+   "fieldtype": "Percent",
+   "label": "Max % C"
+  },
+  {
+   "fieldname": "max__si",
+   "fieldtype": "Percent",
+   "label": "Max % SI"
+  },
+  {
+   "fieldname": "max__mn",
+   "fieldtype": "Percent",
+   "label": "Max % MN"
+  },
+  {
+   "fieldname": "max__s",
+   "fieldtype": "Percent",
+   "label": "Max % S"
+  },
+  {
+   "fieldname": "max__cr",
+   "fieldtype": "Percent",
+   "label": "Max % CR"
+  },
+  {
+   "fieldname": "max__mo",
+   "fieldtype": "Percent",
+   "label": "Max % MO"
+  },
+  {
+   "fieldname": "max__cu",
+   "fieldtype": "Percent",
+   "label": "Max % CU"
+  },
+  {
+   "fieldname": "max__v",
+   "fieldtype": "Percent",
+   "label": "Max % V"
+  },
+  {
+   "fieldname": "max__nb",
+   "fieldtype": "Percent",
+   "label": "Max % Nb"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-07-07 11:20:14.186840",
+ "modified_by": "Administrator",
+ "module": "SHIW",
+ "name": "Grade Master",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
