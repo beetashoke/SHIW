@@ -1,0 +1,63 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-07-07 16:43:49.539902",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "pattern_no_id",
+  "pattern_material",
+  "contraction_allowance",
+  "vendor_name",
+  "attach_image"
+ ],
+ "fields": [
+  {
+   "fieldname": "pattern_no_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Pattern No (ID)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "pattern_material",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Pattern Material",
+   "options": "\nWooden\nAluminum\nCast Iron\nOthers",
+   "reqd": 1
+  },
+  {
+   "fieldname": "contraction_allowance",
+   "fieldtype": "Float",
+   "label": "Contraction Allowance",
+   "precision": "2"
+  },
+  {
+   "fieldname": "vendor_name",
+   "fieldtype": "Link",
+   "label": "Vendor Name",
+   "options": "Supplier"
+  },
+  {
+   "fieldname": "attach_image",
+   "fieldtype": "Attach Image",
+   "label": "Attach Image"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-07-07 16:46:11.442274",
+ "modified_by": "Administrator",
+ "module": "SHIW",
+ "name": "Pattern Manufacturing Pattern Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,88 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-07-07 16:20:34.161385",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "moulding_system",
+  "tooling_id",
+  "quantity_available",
+  "pouring_quantity",
+  "heat_no",
+  "filling_timein_seconds",
+  "prng_tmp",
+  "tapping_time",
+  "short_pouring"
+ ],
+ "fields": [
+  {
+   "fieldname": "moulding_system",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Moulding System",
+   "options": "\nJolt Squeeze Mould Batch\nCo2 Mould Batch\nNo-Bake Mould Batch\nHPML Mould Batch\nGreen Sand Hand Mould Batch",
+   "reqd": 1
+  },
+  {
+   "fieldname": "tooling_id",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Tooling ID",
+   "reqd": 1
+  },
+  {
+   "fieldname": "quantity_available",
+   "fieldtype": "Int",
+   "label": "Quantity Available"
+  },
+  {
+   "fieldname": "pouring_quantity",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Pouring Quantity",
+   "reqd": 1
+  },
+  {
+   "fieldname": "heat_no",
+   "fieldtype": "Data",
+   "label": "Heat No"
+  },
+  {
+   "fieldname": "filling_timein_seconds",
+   "fieldtype": "Time",
+   "label": "Filling Time(In Seconds)"
+  },
+  {
+   "fieldname": "prng_tmp",
+   "fieldtype": "Float",
+   "label": "Pouring Temp (\u00b0C)",
+   "precision": "2"
+  },
+  {
+   "fieldname": "tapping_time",
+   "fieldtype": "Time",
+   "label": "Tapping Time"
+  },
+  {
+   "fieldname": "short_pouring",
+   "fieldtype": "Float",
+   "label": "Short Pouring"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-07-07 16:24:26.572289",
+ "modified_by": "Administrator",
+ "module": "SHIW",
+ "name": "Mould Batch",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

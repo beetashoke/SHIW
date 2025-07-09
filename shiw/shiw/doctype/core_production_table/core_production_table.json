@@ -1,0 +1,39 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-07-07 16:11:11.148533",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "core_name",
+  "core_quantity"
+ ],
+ "fields": [
+  {
+   "fieldname": "core_name",
+   "fieldtype": "Link",
+   "label": "Core Name",
+   "options": "Item"
+  },
+  {
+   "fieldname": "core_quantity",
+   "fieldtype": "Int",
+   "label": "Core Quantity"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-07-07 16:12:09.457495",
+ "modified_by": "Administrator",
+ "module": "SHIW",
+ "name": "Core Production Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
