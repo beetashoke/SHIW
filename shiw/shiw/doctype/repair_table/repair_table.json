@@ -1,0 +1,59 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-07-08 11:35:38.710135",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "item_name",
+  "repairing_qty",
+  "repairing_reason",
+  "contractor_name",
+  "cast_weight_in_kg"
+ ],
+ "fields": [
+  {
+   "fieldname": "item_name",
+   "fieldtype": "Link",
+   "label": "Item Name",
+   "options": "Item"
+  },
+  {
+   "fieldname": "repairing_qty",
+   "fieldtype": "Int",
+   "label": "Repairing Qty"
+  },
+  {
+   "fieldname": "repairing_reason",
+   "fieldtype": "Select",
+   "label": "Repairing Reason "
+  },
+  {
+   "fieldname": "contractor_name",
+   "fieldtype": "Select",
+   "label": "Contractor Name",
+   "options": "\nBhowmick Labour Contractor\nKrishna Enterprise\nYea Ali Enterprise\nMaa Kali Enterprise\nSubrata Roy Barman\nMS Giridhari\nSatyam Deepika Enterprise"
+  },
+  {
+   "fieldname": "cast_weight_in_kg",
+   "fieldtype": "Float",
+   "label": "Cast Weight (In Kg)",
+   "precision": "2"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-07-08 11:37:42.023947",
+ "modified_by": "Administrator",
+ "module": "SHIW",
+ "name": "Repair Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
