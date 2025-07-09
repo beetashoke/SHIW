@@ -1,0 +1,101 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:DVTN - {date} - {shift_type}",
+ "creation": "2025-07-09 15:35:37.903005",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "shift_type",
+  "section_break_vlem",
+  "table_uprh",
+  "section_break_ymty",
+  "total_deviation_qty",
+  "deviation_qty_",
+  "consumption_tab",
+  "table_lqmp",
+  "total_consumption_valuation"
+ ],
+ "fields": [
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "shift_type",
+   "fieldtype": "Select",
+   "label": "Shift Type",
+   "options": "\nDay Shift\nNight Shift"
+  },
+  {
+   "fieldname": "section_break_vlem",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table_uprh",
+   "fieldtype": "Table",
+   "options": "Deviation Table"
+  },
+  {
+   "fieldname": "section_break_ymty",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "total_deviation_qty",
+   "fieldtype": "Int",
+   "label": "Total Deviation Qty"
+  },
+  {
+   "fieldname": "deviation_qty_",
+   "fieldtype": "Percent",
+   "label": "Deviation Qty %"
+  },
+  {
+   "fieldname": "consumption_tab",
+   "fieldtype": "Tab Break",
+   "label": "Consumption"
+  },
+  {
+   "fieldname": "table_lqmp",
+   "fieldtype": "Table",
+   "options": "Consumption-Mould"
+  },
+  {
+   "fieldname": "total_consumption_valuation",
+   "fieldtype": "Float",
+   "label": "Total Consumption Valuation "
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-07-09 15:42:23.529912",
+ "modified_by": "Administrator",
+ "module": "SHIW",
+ "name": "First Line Deviation",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

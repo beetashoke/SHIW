@@ -1,0 +1,56 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-07-09 12:41:23.628111",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "tooling",
+  "mould_quantity",
+  "end_no",
+  "start_no",
+  "remaining_mould"
+ ],
+ "fields": [
+  {
+   "fieldname": "tooling",
+   "fieldtype": "Data",
+   "label": "Tooling"
+  },
+  {
+   "fieldname": "mould_quantity",
+   "fieldtype": "Int",
+   "label": "Remaining Mould"
+  },
+  {
+   "fieldname": "end_no",
+   "fieldtype": "Int",
+   "label": "End No"
+  },
+  {
+   "fieldname": "start_no",
+   "fieldtype": "Int",
+   "label": "Start No"
+  },
+  {
+   "fieldname": "remaining_mould",
+   "fieldtype": "Int",
+   "label": "Actual Mould Quantity"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-07-09 12:43:44.178424",
+ "modified_by": "Administrator",
+ "module": "SHIW",
+ "name": "New Mould Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

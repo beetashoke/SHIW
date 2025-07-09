@@ -1,0 +1,424 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:heat_no",
+ "creation": "2025-07-09 12:57:23.840848",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_81br",
+  "shift_timing",
+  "melter",
+  "heat_no",
+  "date",
+  "pouring_person",
+  "heat_start_at",
+  "furnace_no",
+  "material_grade",
+  "ladle_no",
+  "heat_end_at",
+  "lining_heat_no",
+  "melting_time",
+  "charge_mix_tab",
+  "charge_mix_component_item",
+  "total_charge_mix_valuation",
+  "linked_stock_entry",
+  "total_charge_mix_in_kg",
+  "foundry_return_existing",
+  "liquid_metal_pig",
+  "furnace_holding_time",
+  "additional_cost_tab",
+  "power_consumptionkwh",
+  "temperature_tips",
+  "slag_30",
+  "tap_temerature",
+  "extra_tab",
+  "liquid_balence",
+  "burning_loss",
+  "spectro_tab",
+  "bath",
+  "c",
+  "si",
+  "mn",
+  "p",
+  "s",
+  "cr",
+  "ni",
+  "moi",
+  "cu",
+  "mg",
+  "final",
+  "c1",
+  "si1",
+  "mn1",
+  "p1",
+  "s1",
+  "ni1",
+  "cr1",
+  "moi1",
+  "cu1",
+  "mg1",
+  "ladle_consumption_tab",
+  "ladle_consumption_section",
+  "table_gjfx",
+  "total_ladle_consumption_valuation",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_81br",
+   "fieldtype": "Section Break",
+   "label": "Details"
+  },
+  {
+   "fieldname": "shift_timing",
+   "fieldtype": "Select",
+   "label": "Shift Timing",
+   "options": "Day Shift\nNight Shift"
+  },
+  {
+   "fieldname": "melter",
+   "fieldtype": "Select",
+   "label": "Melter",
+   "options": "Gourango Halder\nS K Borjahan\nBiswajit Bagdi"
+  },
+  {
+   "fieldname": "heat_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Heat No",
+   "unique": 1
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "pouring_person",
+   "fieldtype": "Select",
+   "label": "Pouring Person",
+   "options": "Kartick\nKoushick\nAmar\nUn-Skilled"
+  },
+  {
+   "fieldname": "heat_start_at",
+   "fieldtype": "Time",
+   "label": "Heat Start At"
+  },
+  {
+   "fieldname": "furnace_no",
+   "fieldtype": "Link",
+   "label": "Furnace No",
+   "options": "Furnace - Master"
+  },
+  {
+   "fieldname": "material_grade",
+   "fieldtype": "Link",
+   "label": "Material Grade",
+   "options": "Grade Master"
+  },
+  {
+   "fieldname": "ladle_no",
+   "fieldtype": "Link",
+   "label": "Ladle No",
+   "options": "Ladle - Master"
+  },
+  {
+   "fieldname": "heat_end_at",
+   "fieldtype": "Time",
+   "label": "Heat End At"
+  },
+  {
+   "fieldname": "lining_heat_no",
+   "fieldtype": "Int",
+   "label": "Lining Heat No"
+  },
+  {
+   "fieldname": "melting_time",
+   "fieldtype": "Time",
+   "label": "Melting Time"
+  },
+  {
+   "fieldname": "charge_mix_tab",
+   "fieldtype": "Tab Break",
+   "label": "Charge Mix"
+  },
+  {
+   "fieldname": "charge_mix_component_item",
+   "fieldtype": "Table",
+   "label": "Charge mix component item",
+   "options": "Charge mix component table"
+  },
+  {
+   "fieldname": "total_charge_mix_valuation",
+   "fieldtype": "Float",
+   "label": "Total Charge MIx Valuation",
+   "precision": "2"
+  },
+  {
+   "fieldname": "linked_stock_entry",
+   "fieldtype": "Link",
+   "label": "Stock Entry ID",
+   "options": "Stock Entry"
+  },
+  {
+   "fieldname": "total_charge_mix_in_kg",
+   "fieldtype": "Float",
+   "label": "Total Charge Mix (Kg)"
+  },
+  {
+   "fieldname": "foundry_return_existing",
+   "fieldtype": "Float",
+   "label": "Generated Liquid Metal Return To Furnace"
+  },
+  {
+   "fieldname": "liquid_metal_pig",
+   "fieldtype": "Float",
+   "label": "Liquid Metal Pig"
+  },
+  {
+   "fieldname": "furnace_holding_time",
+   "fieldtype": "Time",
+   "label": "Furnace Holding Time"
+  },
+  {
+   "fieldname": "additional_cost_tab",
+   "fieldtype": "Tab Break",
+   "label": "Additional Cost"
+  },
+  {
+   "fieldname": "power_consumptionkwh",
+   "fieldtype": "Float",
+   "label": "Power Consumption(KWH)"
+  },
+  {
+   "fieldname": "temperature_tips",
+   "fieldtype": "Int",
+   "label": "Temperature Tips"
+  },
+  {
+   "fieldname": "slag_30",
+   "fieldtype": "Float",
+   "label": "Slag 30",
+   "precision": "2"
+  },
+  {
+   "fieldname": "tap_temerature",
+   "fieldtype": "Int",
+   "label": "Tap Temperature (\u00b0C)"
+  },
+  {
+   "fieldname": "extra_tab",
+   "fieldtype": "Tab Break",
+   "label": "Extra"
+  },
+  {
+   "fieldname": "liquid_balence",
+   "fieldtype": "Float",
+   "label": "Liquid metal at weighing Bal."
+  },
+  {
+   "fieldname": "burning_loss",
+   "fieldtype": "Float",
+   "label": "Burning Loss",
+   "precision": "2"
+  },
+  {
+   "fieldname": "spectro_tab",
+   "fieldtype": "Tab Break",
+   "label": "Spectro"
+  },
+  {
+   "fieldname": "bath",
+   "fieldtype": "Section Break",
+   "label": "Spectro Sample - BATH"
+  },
+  {
+   "fieldname": "c",
+   "fieldtype": "Float",
+   "label": "C%(Bath)",
+   "precision": "4"
+  },
+  {
+   "fieldname": "si",
+   "fieldtype": "Float",
+   "label": "SI%(Bath)",
+   "precision": "4"
+  },
+  {
+   "fieldname": "mn",
+   "fieldtype": "Float",
+   "label": "MN%(Bath)",
+   "precision": "4"
+  },
+  {
+   "fieldname": "p",
+   "fieldtype": "Float",
+   "label": "P%(Bath)",
+   "precision": "4"
+  },
+  {
+   "fieldname": "s",
+   "fieldtype": "Float",
+   "label": "S%(Bath)",
+   "precision": "4"
+  },
+  {
+   "fieldname": "cr",
+   "fieldtype": "Float",
+   "label": "CR%(Bath)",
+   "precision": "4"
+  },
+  {
+   "fieldname": "ni",
+   "fieldtype": "Float",
+   "label": "NI%(Bath)",
+   "precision": "4"
+  },
+  {
+   "fieldname": "moi",
+   "fieldtype": "Float",
+   "label": "MOI%(Bath)",
+   "precision": "4"
+  },
+  {
+   "fieldname": "cu",
+   "fieldtype": "Float",
+   "label": "CU%(Bath)",
+   "precision": "4"
+  },
+  {
+   "fieldname": "mg",
+   "fieldtype": "Float",
+   "label": "MG%(Bath)",
+   "precision": "4"
+  },
+  {
+   "fieldname": "final",
+   "fieldtype": "Section Break",
+   "label": "Spectro Sample - FINAL"
+  },
+  {
+   "fieldname": "c1",
+   "fieldtype": "Float",
+   "label": "C%",
+   "precision": "4"
+  },
+  {
+   "fieldname": "si1",
+   "fieldtype": "Float",
+   "label": "SI%",
+   "precision": "4"
+  },
+  {
+   "fieldname": "mn1",
+   "fieldtype": "Float",
+   "label": "MN%",
+   "precision": "4"
+  },
+  {
+   "fieldname": "p1",
+   "fieldtype": "Float",
+   "label": "P%",
+   "precision": "4"
+  },
+  {
+   "fieldname": "s1",
+   "fieldtype": "Float",
+   "label": "S%",
+   "precision": "4"
+  },
+  {
+   "fieldname": "ni1",
+   "fieldtype": "Float",
+   "label": "NI%",
+   "precision": "4"
+  },
+  {
+   "fieldname": "cr1",
+   "fieldtype": "Float",
+   "label": "CR%",
+   "precision": "4"
+  },
+  {
+   "fieldname": "moi1",
+   "fieldtype": "Float",
+   "label": "MOI%",
+   "precision": "4"
+  },
+  {
+   "fieldname": "cu1",
+   "fieldtype": "Float",
+   "label": "CU%",
+   "precision": "4"
+  },
+  {
+   "fieldname": "mg1",
+   "fieldtype": "Float",
+   "label": "MG%",
+   "precision": "4"
+  },
+  {
+   "fieldname": "ladle_consumption_tab",
+   "fieldtype": "Tab Break",
+   "label": "Ladle Consumption"
+  },
+  {
+   "fieldname": "ladle_consumption_section",
+   "fieldtype": "Section Break",
+   "label": "Ladle Consumption"
+  },
+  {
+   "fieldname": "table_gjfx",
+   "fieldtype": "Table",
+   "options": "Heat-Ladle Consumption Table"
+  },
+  {
+   "fieldname": "total_ladle_consumption_valuation",
+   "fieldtype": "Float",
+   "label": "Total Ladle Consumption Valuation",
+   "precision": "2"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Heat",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-07-09 14:13:22.830138",
+ "modified_by": "Administrator",
+ "module": "SHIW",
+ "name": "Heat",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "heat_no",
+ "track_changes": 1
+}

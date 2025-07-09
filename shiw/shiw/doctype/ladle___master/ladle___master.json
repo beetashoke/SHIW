@@ -1,0 +1,63 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-07-09 13:54:55.826636",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "ladle_type",
+  "ladle_no",
+  "ladle_code",
+  "ladle_capacity"
+ ],
+ "fields": [
+  {
+   "fieldname": "ladle_type",
+   "fieldtype": "Select",
+   "label": "Ladle Type",
+   "options": "Bottom Pouring\nLip Pouring\nDI Treatment\nSteel 1.5 Ton"
+  },
+  {
+   "fieldname": "ladle_no",
+   "fieldtype": "Int",
+   "label": "Ladle No"
+  },
+  {
+   "fieldname": "ladle_code",
+   "fieldtype": "Data",
+   "label": "Ladle Code"
+  },
+  {
+   "fieldname": "ladle_capacity",
+   "fieldtype": "Float",
+   "label": "Ladle Capacity (in KG)"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-07-09 14:07:04.499616",
+ "modified_by": "Administrator",
+ "module": "SHIW",
+ "name": "Ladle - Master",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

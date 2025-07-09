@@ -1,0 +1,93 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-07-09 15:01:07.491884",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_md2v",
+  "amended_from",
+  "date",
+  "shift_type",
+  "ladle_no",
+  "repairing_person_name",
+  "section_break_zacy",
+  "consumption"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_md2v",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Furnace Repair Log",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "shift_type",
+   "fieldtype": "Select",
+   "label": "Shift Type",
+   "options": "\nDay Shift\nNight"
+  },
+  {
+   "fieldname": "ladle_no",
+   "fieldtype": "Link",
+   "label": "Furnace No",
+   "options": "Furnace - Master"
+  },
+  {
+   "fieldname": "repairing_person_name",
+   "fieldtype": "Data",
+   "label": "Repairing Person Name"
+  },
+  {
+   "fieldname": "section_break_zacy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "consumption",
+   "fieldtype": "Table",
+   "label": "Consumption ",
+   "options": "Consumption-Mould"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-07-09 15:03:26.237839",
+ "modified_by": "Administrator",
+ "module": "SHIW",
+ "name": "Furnace Repair Log",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

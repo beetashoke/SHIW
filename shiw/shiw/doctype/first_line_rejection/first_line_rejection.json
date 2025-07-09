@@ -1,0 +1,111 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{FLR} - {date} - {shift_type}",
+ "creation": "2025-07-09 15:31:54.641930",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_iphu",
+  "amended_from",
+  "section_break_ubdm",
+  "date",
+  "shift_type",
+  "linked_stock_entry",
+  "section_break_jabw",
+  "table_yncx",
+  "section_break_ctbn",
+  "total_qty_rejected",
+  "rejected_qty_"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_iphu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "First Line Rejection",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "section_break_ubdm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "shift_type",
+   "fieldtype": "Select",
+   "label": "Shift Type",
+   "options": "\nDay Shift\nNight Shift"
+  },
+  {
+   "fieldname": "linked_stock_entry",
+   "fieldtype": "Link",
+   "label": "Stock Entry ID",
+   "options": "Stock Entry"
+  },
+  {
+   "fieldname": "section_break_jabw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table_yncx",
+   "fieldtype": "Table",
+   "options": "First Line Inspection Report"
+  },
+  {
+   "fieldname": "section_break_ctbn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "total_qty_rejected",
+   "fieldtype": "Int",
+   "label": "Total Qty Rejected"
+  },
+  {
+   "fieldname": "rejected_qty_",
+   "fieldtype": "Percent",
+   "label": "Rejected Qty %"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-07-09 15:34:51.592479",
+ "modified_by": "Administrator",
+ "module": "SHIW",
+ "name": "First Line Rejection",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

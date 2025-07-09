@@ -1,0 +1,87 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-07-09 12:27:43.956407",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "shift_type",
+  "item_name",
+  "casting_weight_in_kg",
+  "bunch_weight_in_kg",
+  "shakeout_quantity",
+  "shot_blast_quantity",
+  "deviation_quantity",
+  "rejected_quantity",
+  "pouring_id"
+ ],
+ "fields": [
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Shakeout Date"
+  },
+  {
+   "fieldname": "shift_type",
+   "fieldtype": "Select",
+   "label": "Shakeout Shift Type",
+   "options": "\nDay Shift\nNight Shift"
+  },
+  {
+   "fieldname": "item_name",
+   "fieldtype": "Select",
+   "label": "Item Name"
+  },
+  {
+   "fieldname": "casting_weight_in_kg",
+   "fieldtype": "Data",
+   "label": "Casting Weight (In Kg)"
+  },
+  {
+   "fieldname": "bunch_weight_in_kg",
+   "fieldtype": "Data",
+   "label": "Bunch Weight (In Kg)"
+  },
+  {
+   "fieldname": "shakeout_quantity",
+   "fieldtype": "Int",
+   "label": "ShakeOut Quantity"
+  },
+  {
+   "fieldname": "shot_blast_quantity",
+   "fieldtype": "Int",
+   "label": "Shot Blast Quantity"
+  },
+  {
+   "fieldname": "deviation_quantity",
+   "fieldtype": "Int",
+   "label": "Deviation Quantity"
+  },
+  {
+   "fieldname": "rejected_quantity",
+   "fieldtype": "Int",
+   "label": "Rejected Quantity"
+  },
+  {
+   "fieldname": "pouring_id",
+   "fieldtype": "Data",
+   "label": "Pouring Id"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-07-09 12:39:39.428205",
+ "modified_by": "Administrator",
+ "module": "SHIW",
+ "name": "Shakeout Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
