@@ -1,0 +1,129 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{date} - {###}",
+ "creation": "2025-07-09 16:22:42.209460",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_pgxo",
+  "amended_from",
+  "section_break_icly",
+  "date",
+  "shift_type",
+  "heat_loss_section",
+  "target_liquid_metal",
+  "achieved_liquid_metal",
+  "achieved",
+  "loss_liquid_metal",
+  "loss",
+  "reason_for_heat_loss_section",
+  "table_heat_loss"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_pgxo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Daily Heat Loss",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "section_break_icly",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "shift_type",
+   "fieldtype": "Select",
+   "label": "Shift Type",
+   "options": "\nDay Shift\nNight Shift"
+  },
+  {
+   "fieldname": "heat_loss_section",
+   "fieldtype": "Section Break",
+   "label": "Heat Loss"
+  },
+  {
+   "fieldname": "target_liquid_metal",
+   "fieldtype": "Float",
+   "label": "Target Liquid Metal",
+   "precision": "2"
+  },
+  {
+   "fieldname": "achieved_liquid_metal",
+   "fieldtype": "Float",
+   "label": "Achieved Liquid Metal",
+   "precision": "2"
+  },
+  {
+   "fieldname": "achieved",
+   "fieldtype": "Percent",
+   "label": "% Achieved",
+   "precision": "2"
+  },
+  {
+   "fieldname": "loss_liquid_metal",
+   "fieldtype": "Percent",
+   "label": "Loss Liquid Metal",
+   "precision": "2"
+  },
+  {
+   "fieldname": "loss",
+   "fieldtype": "Percent",
+   "label": "% Loss",
+   "precision": "2"
+  },
+  {
+   "fieldname": "reason_for_heat_loss_section",
+   "fieldtype": "Section Break",
+   "label": "Reason For Heat Loss"
+  },
+  {
+   "fieldname": "table_heat_loss",
+   "fieldtype": "Table",
+   "options": "Reason For Heat Loss Table"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-07-09 16:27:16.190393",
+ "modified_by": "Administrator",
+ "module": "SHIW",
+ "name": "Daily Heat Loss",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

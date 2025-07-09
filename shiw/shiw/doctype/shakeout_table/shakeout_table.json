@@ -66,15 +66,16 @@
   },
   {
    "fieldname": "pouring_id",
-   "fieldtype": "Data",
-   "label": "Pouring Id"
+   "fieldtype": "Link",
+   "label": "Pouring Id",
+   "options": "Pouring"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2025-07-09 12:39:39.428205",
+ "modified": "2025-07-09 16:28:20.939063",
  "modified_by": "Administrator",
  "module": "SHIW",
  "name": "Shakeout Table",
