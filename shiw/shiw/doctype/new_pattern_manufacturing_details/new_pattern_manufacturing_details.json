@@ -1,0 +1,123 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-07-09 15:38:50.585868",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "pattern_details_tab",
+  "section_break_rcte",
+  "item_name",
+  "drawing_no",
+  "column_break_wvjz",
+  "consignee_name",
+  "customer_name",
+  "pattern_image",
+  "section_break_pclz",
+  "table_romr",
+  "tab_2_tab",
+  "core_details",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_rcte",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "item_name",
+   "fieldtype": "Link",
+   "label": "Item Name",
+   "options": "Item"
+  },
+  {
+   "fieldname": "drawing_no",
+   "fieldtype": "Data",
+   "label": "Drawing No"
+  },
+  {
+   "fieldname": "column_break_wvjz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "consignee_name",
+   "fieldtype": "Link",
+   "label": "Consignee Name",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "customer_name",
+   "fieldtype": "Link",
+   "label": "Customer Name",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "pattern_image",
+   "fieldtype": "Attach Image",
+   "label": "Pattern Image"
+  },
+  {
+   "fieldname": "section_break_pclz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table_romr",
+   "fieldtype": "Table",
+   "options": "Pattern Manufacturing Pattern Table"
+  },
+  {
+   "fieldname": "tab_2_tab",
+   "fieldtype": "Tab Break",
+   "label": "Core Box"
+  },
+  {
+   "fieldname": "core_details",
+   "fieldtype": "Table",
+   "label": "Core Details",
+   "options": "Core Bom Table"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "New Pattern Manufacturing Details",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "pattern_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Pattern Details"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-07-09 15:42:29.082068",
+ "modified_by": "Administrator",
+ "module": "SHIW",
+ "name": "New Pattern Manufacturing Details",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
