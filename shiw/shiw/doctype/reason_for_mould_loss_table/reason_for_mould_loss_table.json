@@ -14,8 +14,9 @@
  "fields": [
   {
    "fieldname": "tooling_id",
-   "fieldtype": "Data",
-   "label": "Tooling ID"
+   "fieldtype": "Link",
+   "label": "Tooling ID",
+   "options": "New Tooling"
   },
   {
    "fieldname": "reason_for_mould_loss",
@@ -39,7 +40,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2025-07-07 17:12:24.149916",
+ "modified": "2025-07-09 17:32:08.697328",
  "modified_by": "Administrator",
  "module": "SHIW",
  "name": "Reason For Mould Loss Table",

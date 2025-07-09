@@ -19,9 +19,10 @@
  "fields": [
   {
    "fieldname": "item",
-   "fieldtype": "Data",
+   "fieldtype": "Link",
    "in_global_search": 1,
-   "label": "Item"
+   "label": "Item",
+   "options": "New Pattern Manufacturing Details"
   },
   {
    "fieldname": "customer",
@@ -73,7 +74,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2025-07-07 16:42:12.388460",
+ "modified": "2025-07-09 17:31:30.692944",
  "modified_by": "Administrator",
  "module": "SHIW",
  "name": "Tooling Item Details table",
