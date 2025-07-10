@@ -10,7 +10,15 @@
   "column_break_mudo",
   "match_plate_number",
   "section_break_lfha",
-  "table_vfvc",
+  "details_table",
+  "section_break_lhbr",
+  "total_casting_weight",
+  "column_break_viwg",
+  "bunch_weight",
+  "column_break_bfrp",
+  "runner_riser_weight",
+  "column_break_vxyj",
+  "yield",
   "section_break_zgvz",
   "date",
   "pouring_type",
@@ -61,11 +69,6 @@
   {
    "fieldname": "section_break_lfha",
    "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "table_vfvc",
-   "fieldtype": "Table",
-   "options": "Tooling Item Details table"
   },
   {
    "fieldname": "section_break_zgvz",
@@ -206,13 +209,54 @@
    "print_hide": 1,
    "read_only": 1,
    "search_index": 1
+  },
+  {
+   "fieldname": "details_table",
+   "fieldtype": "Table",
+   "options": "Tooling Item Details table"
+  },
+  {
+   "fieldname": "section_break_lhbr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_viwg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_bfrp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_vxyj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_casting_weight",
+   "fieldtype": "Float",
+   "label": "Total Casting Weight (In Kg)"
+  },
+  {
+   "fieldname": "bunch_weight",
+   "fieldtype": "Float",
+   "label": "Bunch Weight (In Kg)"
+  },
+  {
+   "fieldname": "runner_riser_weight",
+   "fieldtype": "Float",
+   "label": "Runner Riser Weight (in Kg)"
+  },
+  {
+   "fieldname": "yield",
+   "fieldtype": "Float",
+   "label": "Yield %"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-07-09 15:58:30.740590",
+ "modified": "2025-07-10 15:50:44.400366",
  "modified_by": "Administrator",
  "module": "SHIW",
  "name": "New Tooling",

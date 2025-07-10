@@ -12,9 +12,9 @@
   "tracebility_code",
   "is_sample",
   "section_break_lnsi",
-  "table_rnxn",
+  "mould_table",
   "tab_2_tab",
-  "table_ytqi",
+  "table_rhxb",
   "total_consumption_valuation"
  ],
  "fields": [
@@ -55,30 +55,30 @@
    "fieldtype": "Section Break"
   },
   {
-   "fieldname": "table_rnxn",
-   "fieldtype": "Table",
-   "options": "New Mould Table"
-  },
-  {
    "fieldname": "tab_2_tab",
    "fieldtype": "Tab Break",
    "label": "Consumption"
   },
   {
-   "fieldname": "table_ytqi",
-   "fieldtype": "Table",
-   "options": "Consumption-Mould"
-  },
-  {
    "fieldname": "total_consumption_valuation",
    "fieldtype": "Float",
    "label": "Total Consumption Valuation"
+  },
+  {
+   "fieldname": "mould_table",
+   "fieldtype": "Table",
+   "options": "New Mould Table"
+  },
+  {
+   "fieldname": "table_rhxb",
+   "fieldtype": "Table",
+   "options": "Consumption-Mould"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-07-10 10:42:14.317818",
+ "modified": "2025-07-10 11:07:17.830840",
  "modified_by": "Administrator",
  "module": "SHIW",
  "name": "Co2 Mould Batch",
