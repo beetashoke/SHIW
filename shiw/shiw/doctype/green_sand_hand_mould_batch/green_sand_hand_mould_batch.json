@@ -1,0 +1,105 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-07-10 10:46:49.377003",
+ "default_view": "List",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "shift_type",
+  "supervisor_name",
+  "column_break_nwwf",
+  "tracebility_code",
+  "is_sample",
+  "section_break_lnsi",
+  "table_rnxn",
+  "tab_2_tab",
+  "table_ytqi",
+  "total_consumption_valuation"
+ ],
+ "fields": [
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "shift_type",
+   "fieldtype": "Select",
+   "label": "Shift Type",
+   "options": "\nDay Shift\nNight Shift"
+  },
+  {
+   "fieldname": "supervisor_name",
+   "fieldtype": "Select",
+   "label": "Supervisor Name",
+   "options": "\nDeepak Mondal\nSamiran Saha"
+  },
+  {
+   "fieldname": "column_break_nwwf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tracebility_code",
+   "fieldtype": "Data",
+   "label": "Tracebility Code"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_sample",
+   "fieldtype": "Check",
+   "label": "Is Sample"
+  },
+  {
+   "fieldname": "section_break_lnsi",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table_rnxn",
+   "fieldtype": "Table",
+   "options": "New Mould Table"
+  },
+  {
+   "fieldname": "tab_2_tab",
+   "fieldtype": "Tab Break",
+   "label": "Consumption"
+  },
+  {
+   "fieldname": "table_ytqi",
+   "fieldtype": "Table",
+   "options": "Consumption-Mould"
+  },
+  {
+   "fieldname": "total_consumption_valuation",
+   "fieldtype": "Float",
+   "label": "Total Consumption Valuation"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-07-10 10:57:47.576567",
+ "modified_by": "Administrator",
+ "module": "SHIW",
+ "name": "Green Sand Hand Mould Batch",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
