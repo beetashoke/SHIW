@@ -1,0 +1,173 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:DPT - {present_reading_date} - {meter}",
+ "creation": "2025-07-10 11:10:25.942021",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_esdm",
+  "amended_from",
+  "section_break_crpf",
+  "meter",
+  "section_break_igvb",
+  "previous_reading_date",
+  "previous_reading_recorded",
+  "section_break_ucfo",
+  "present_reading_date",
+  "present_reading_recorded",
+  "section_break_dbgg",
+  "consumption",
+  "mf",
+  "consumption_kwh",
+  "section_break_srxp",
+  "03_furnace_kwh",
+  "plant_kwh",
+  "fur_aux_vcb",
+  "incomer_vcb",
+  "electric_bill_reading_section",
+  "kwh",
+  "pf"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_esdm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Daily Power Tracker",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "section_break_crpf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "meter",
+   "fieldtype": "Select",
+   "label": "Meter",
+   "options": "\n1-Ton furnace\n500-kg furnace\n200-kg furnace\nFurnace VCB\nAuxiliary VCB\nIncomer VCB\nBill Reading"
+  },
+  {
+   "fieldname": "section_break_igvb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "previous_reading_date",
+   "fieldtype": "Date",
+   "label": "Previous Reading Date"
+  },
+  {
+   "fieldname": "previous_reading_recorded",
+   "fieldtype": "Float",
+   "label": "Previous Reading Recorded"
+  },
+  {
+   "fieldname": "section_break_ucfo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "present_reading_date",
+   "fieldtype": "Date",
+   "label": "Present Reading Date"
+  },
+  {
+   "fieldname": "present_reading_recorded",
+   "fieldtype": "Float",
+   "label": "Present Reading Recorded"
+  },
+  {
+   "fieldname": "section_break_dbgg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "consumption",
+   "fieldtype": "Float",
+   "label": "Consumption"
+  },
+  {
+   "fieldname": "mf",
+   "fieldtype": "Int",
+   "label": "MF"
+  },
+  {
+   "fieldname": "consumption_kwh",
+   "fieldtype": "Float",
+   "label": "Consumption (KWH)"
+  },
+  {
+   "fieldname": "section_break_srxp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "03_furnace_kwh",
+   "fieldtype": "Float",
+   "label": "03 Furnace (KWH)"
+  },
+  {
+   "fieldname": "plant_kwh",
+   "fieldtype": "Float",
+   "label": "Plant (KWH)"
+  },
+  {
+   "fieldname": "fur_aux_vcb",
+   "fieldtype": "Float",
+   "label": "FUR. & AUX. VCB"
+  },
+  {
+   "fieldname": "incomer_vcb",
+   "fieldtype": "Float",
+   "label": "Incomer VCB"
+  },
+  {
+   "fieldname": "electric_bill_reading_section",
+   "fieldtype": "Section Break",
+   "label": "ELECTRIC BILL READING"
+  },
+  {
+   "fieldname": "kwh",
+   "fieldtype": "Float",
+   "label": "KWH"
+  },
+  {
+   "fieldname": "pf",
+   "fieldtype": "Float",
+   "label": "PF"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-07-10 11:33:37.041641",
+ "modified_by": "Administrator",
+ "module": "SHIW",
+ "name": "Daily Power Tracker",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
