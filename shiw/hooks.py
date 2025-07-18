@@ -243,3 +243,15 @@ app_license = "mit"
 # }
 
 fixtures = ["Custom Field"]
+doctype_js = {
+	"Purchase Order": "public/js/purchase_order_custom.js",
+	"Material Request": "public/js/material_request_item.js",
+	"Purchase Receipt": "public/js/goods_received_note.js",
+}
+
+# doc_events = {
+# 	"Pouring": {"on_submit": "shiw.doctype.pouring.on_submit"},
+# 	"Shake Out": {"on_submit": "shiw.doctype.shake_out.on_submit"},
+# 	"Shot Blast": {"on_submit": "shiw.doctype.shot_blast.on_submit"},
+# 	"First Line Rejection": {"on_submit": "shiw.doctype.first_line_rejection.on_submit"},
+# }

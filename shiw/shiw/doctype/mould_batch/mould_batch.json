@@ -14,7 +14,8 @@
   "filling_timein_seconds",
   "prng_tmp",
   "tapping_time",
-  "short_pouring"
+  "short_pouring",
+  "mould_no"
  ],
  "fields": [
   {
@@ -70,13 +71,18 @@
    "fieldname": "short_pouring",
    "fieldtype": "Float",
    "label": "Short Pouring"
+  },
+  {
+   "fieldname": "mould_no",
+   "fieldtype": "Select",
+   "label": "Mould Batch No"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2025-07-09 16:30:01.826860",
+ "modified": "2025-07-18 16:48:36.391218",
  "modified_by": "Administrator",
  "module": "SHIW",
  "name": "Mould Batch",

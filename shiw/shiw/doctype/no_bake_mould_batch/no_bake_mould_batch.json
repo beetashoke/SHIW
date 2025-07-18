@@ -34,7 +34,7 @@
    "fieldname": "supervisor_name",
    "fieldtype": "Select",
    "label": "Supervisor Name",
-   "options": "\nDeepak Mondal\nSamiran Saha"
+   "options": "\nDeepak Mondal\nSamiran Saha\nAbhishek Manik\nSourav Maity"
   },
   {
    "fieldname": "column_break_nwwf",
@@ -79,7 +79,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-07-10 16:03:05.246004",
+ "modified": "2025-07-17 17:54:18.626617",
  "modified_by": "Administrator",
  "module": "SHIW",
  "name": "No-Bake Mould Batch",
