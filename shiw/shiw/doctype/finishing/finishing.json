@@ -48,7 +48,8 @@
   {
    "fieldname": "shift_type",
    "fieldtype": "Select",
-   "label": "Shift Type"
+   "label": "Shift Type",
+   "options": "\nDay Shift\nNight SHift"
   },
   {
    "fieldname": "linked_stock_entry",
@@ -100,7 +101,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-07-09 16:07:03.180105",
+ "modified": "2025-07-18 17:44:15.443914",
  "modified_by": "Administrator",
  "module": "SHIW",
  "name": "Finishing",

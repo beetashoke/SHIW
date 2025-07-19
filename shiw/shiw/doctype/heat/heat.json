@@ -60,7 +60,7 @@
   "mg1",
   "ladle_consumption_tab",
   "ladle_consumption_section",
-  "table_gjfx",
+  "table_vkjb",
   "total_ladle_consumption_valuation",
   "amended_from"
  ],
@@ -369,11 +369,6 @@
    "label": "Ladle Consumption"
   },
   {
-   "fieldname": "table_gjfx",
-   "fieldtype": "Table",
-   "options": "Heat-Ladle Consumption Table"
-  },
-  {
    "fieldname": "total_ladle_consumption_valuation",
    "fieldtype": "Float",
    "label": "Total Ladle Consumption Valuation",
@@ -388,13 +383,18 @@
    "print_hide": 1,
    "read_only": 1,
    "search_index": 1
+  },
+  {
+   "fieldname": "table_vkjb",
+   "fieldtype": "Table",
+   "options": "Heat-Ladle Consumption Table"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-07-09 14:13:22.830138",
+ "modified": "2025-07-19 11:13:59.541100",
  "modified_by": "Administrator",
  "module": "SHIW",
  "name": "Heat",
