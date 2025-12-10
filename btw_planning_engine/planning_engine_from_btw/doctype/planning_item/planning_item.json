@@ -1,39 +1,26 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2025-12-10 15:37:54.855792",
+ "creation": "2025-12-10 16:17:45.337679",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "full_name",
-  "age",
-  "gender"
+  "item_name"
  ],
  "fields": [
   {
-   "fieldname": "full_name",
+   "fieldname": "item_name",
    "fieldtype": "Data",
-   "label": "Full Name "
-  },
-  {
-   "fieldname": "age",
-   "fieldtype": "Int",
-   "label": "Age"
-  },
-  {
-   "fieldname": "gender",
-   "fieldtype": "Select",
-   "label": "Gender",
-   "options": "\nMale\nFemale"
+   "label": "Item Name"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-12-10 16:17:16.082019",
+ "modified": "2025-12-10 16:17:55.618698",
  "modified_by": "Administrator",
  "module": "Planning Engine From BTW",
- "name": "Test one",
+ "name": "Planning item",
  "owner": "Administrator",
  "permissions": [
   {
